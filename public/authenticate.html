@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link rel="alternate icon" href="favicon.ico">
+    
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- HTML Meta Tags -->
+    <title>Payment Processing | x402 Micropayments</title>
+    <meta name="description" content="Processing your secure USDC micropayment via x402 protocol on Base network.">
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://x402.asseph.dev/">
+    <meta property="og:title" content="Payment Processing | x402 Micropayments">
+    <meta property="og:description" content="Processing your secure USDC micropayment via x402 protocol on Base network.">
+    <meta property="og:image" content="https://opengraph.b-cdn.net/production/images/afea1e83-0adf-4492-9692-599da59e6182.png?token=nH7qEiqQ28Fyw91we3XTwxZpqk3vbIeIl3hjVfsNpHQ&height=266&width=500&expires=33297677916">
+    
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="https://x402.asseph.dev/">
+    <meta property="twitter:title" content="Payment Processing | x402 Micropayments">
+    <meta property="twitter:description" content="Processing your secure USDC micropayment via x402 protocol on Base network.">
+    <meta property="twitter:image" content="https://opengraph.b-cdn.net/production/images/afea1e83-0adf-4492-9692-599da59e6182.png?token=nH7qEiqQ28Fyw91we3XTwxZpqk3vbIeIl3hjVfsNpHQ&height=266&width=500&expires=33297677916">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-brand">
+                <div class="brand-icon">
+                    <i class="fas fa-coins"></i>
+                </div>
+                <span class="brand-text">x402</span>
+            </div>
+            <div class="nav-menu">
+                <a href="/" class="nav-link">Home</a>
+                <a href="https://www.x402.org/" target="_blank" class="nav-link external">
+                    <i class="fas fa-external-link-alt"></i>
+                    Protocol
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Payment Processing Section -->
+    <section class="hero" style="min-height: 100vh; display: flex; align-items: center; padding-top: 72px;">
+        <div class="container">
+            <div class="payment-processing-container">
+                <div class="processing-header">
+                    <div class="processing-badge">
+                        <i class="fas fa-sync-alt fa-spin"></i>
+                        <span>Processing Payment</span>
+                    </div>
+                    <h1 class="processing-title">
+                        Securing Your <span class="gradient-text">Transaction</span>
+                    </h1>
+                    <p class="processing-description">
+                        Your $0.10 USDC payment is being processed on the Base network. This should only take a moment.
+                    </p>
+                </div>
+
+                <!-- Payment Card -->
+                <div class="payment-card processing-card">
+                    <div class="card-header">
+                        <div class="card-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <div class="card-title">Payment in Progress</div>
+                    </div>
+                    <div class="card-content">
+                        <div class="payment-amount">
+                            <span class="currency">USDC</span>
+                            <span class="amount">0.10</span>
+                        </div>
+                        <div class="payment-details">
+                            <div class="detail">
+                                <span class="label">Network:</span>
+                                <span class="value">Base</span>
+                            </div>
+                            <div class="detail">
+                                <span class="label">Status:</span>
+                                <span class="value processing">Processing...</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-footer">
+                        <div class="progress-bar">
+                            <div class="progress-fill processing"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Processing Steps -->
+                <div class="processing-steps">
+                    <div class="step-item completed">
+                        <div class="step-icon">
+                            <i class="fas fa-check"></i>
+                        </div>
+                        <div class="step-content">
+                            <h4>Connecting to Base Network</h4>
+                            <p>Establishing secure connection to Base L2</p>
+                        </div>
+                    </div>
+                    <div class="step-item completed">
+                        <div class="step-icon">
+                            <i class="fas fa-check"></i>
+                        </div>
+                        <div class="step-content">
+                            <h4>Validating Transaction</h4>
+                            <p>Verifying USDC payment details</p>
+                        </div>
+                    </div>
+                    <div class="step-item processing">
+                        <div class="step-icon">
+                            <i class="fas fa-sync-alt fa-spin"></i>
+                        </div>
+                        <div class="step-content">
+                            <h4>Awaiting Confirmation</h4>
+                            <p>Waiting for blockchain confirmation</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Security Features -->
+                <div class="security-features">
+                    <div class="security-item">
+                        <i class="fas fa-lock"></i>
+                        <span>Secure Payment</span>
+                    </div>
+                    <div class="security-item">
+                        <i class="fas fa-bolt"></i>
+                        <span>Base Network</span>
+                    </div>
+                    <div class="security-item">
+                        <i class="fas fa-dollar-sign"></i>
+                        <span>$0.10 USDC</span>
+                    </div>
+                </div>
+
+                <!-- Warning Message -->
+                <div class="warning-message">
+                    <i class="fas fa-info-circle"></i>
+                    <p>Please do not close this window. You will be redirected automatically once the payment is confirmed.</p>
+                </div>
+
+                <!-- Action Buttons -->
+                <div class="processing-actions">
+                    <a href="/" class="btn btn-secondary">
+                        <i class="fas fa-times"></i>
+                        Cancel Payment
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-brand">
+                        <div class="brand-icon">
+                            <i class="fas fa-coins"></i>
+                        </div>
+                        <span class="brand-text">x402</span>
+                    </div>
+                    <p>Revolutionizing content monetization through secure micropayments on the blockchain.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Platform</h4>
+                    <ul class="footer-links">
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/#features">Features</a></li>
+                        <li><a href="/#how-it-works">How it Works</a></li>
+                        <li><a href="/#pricing">Pricing</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Resources</h4>
+                    <ul class="footer-links">
+                        <li><a href="https://www.x402.org/" target="_blank">x402 Protocol</a></li>
+                        <li><a href="https://github.com/asseph/x402-payment" target="_blank">GitHub</a></li>
+                        <li><a href="https://www.coinbase.com/" target="_blank">Coinbase</a></li>
+                        <li><a href="https://base.org/" target="_blank">Base Network</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Connect</h4>
+                    <div class="social-links">
+                        <a href="https://github.com/asseph/x402-payment" target="_blank" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://t.me/asseph_1994" target="_blank" class="social-link">
+                            <i class="fab fa-telegram"></i>
+                        </a>
+                        <a href="https://www.x402.org/" target="_blank" class="social-link">
+                            <i class="fas fa-globe"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; <span id="current-year"></span> x402 Micropayments Platform. Built with <i class="fas fa-heart"></i> for the decentralized web.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+    <style>
+        .payment-processing-container {
+            max-width: 600px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .processing-header {
+            margin-bottom: var(--space-12);
+        }
+
+        .processing-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: var(--space-2);
+            background: rgba(14, 165, 233, 0.1);
+            color: var(--primary-700);
+            padding: var(--space-2) var(--space-4);
+            border-radius: var(--radius-full);
+            font-size: var(--font-size-sm);
+            font-weight: var(--font-weight-semibold);
+            margin-bottom: var(--space-6);
+            border: 1px solid rgba(14, 165, 233, 0.2);
+        }
+
+        .processing-title {
+            font-size: var(--font-size-4xl);
+            font-weight: var(--font-weight-black);
+            line-height: var(--line-height-tight);
+            margin-bottom: var(--space-4);
+            color: var(--text-primary);
+        }
+
+        .processing-description {
+            font-size: var(--font-size-lg);
+            color: var(--text-secondary);
+            line-height: var(--line-height-relaxed);
+        }
+
+        .processing-card {
+            margin-bottom: var(--space-8);
+            animation: pulse 2s ease-in-out infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.02); }
+        }
+
+        .value.processing {
+            color: var(--warning);
+        }
+
+        .progress-fill.processing {
+            animation: progress 2s ease-in-out infinite;
+        }
+
+        .processing-steps {
+            margin-bottom: var(--space-8);
+        }
+
+        .step-item {
+            display: flex;
+            align-items: center;
+            gap: var(--space-4);
+            padding: var(--space-4);
+            margin-bottom: var(--space-4);
+            background: var(--bg-card);
+            border-radius: var(--radius-lg);
+            border: 1px solid var(--border-light);
+            transition: all var(--transition-normal);
+        }
+
+        .step-item.completed {
+            border-color: var(--success);
+            background: rgba(16, 185, 129, 0.05);
+        }
+
+        .step-item.processing {
+            border-color: var(--warning);
+            background: rgba(245, 158, 11, 0.05);
+        }
+
+        .step-icon {
+            width: 40px;
+            height: 40px;
+            border-radius: var(--radius-full);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: var(--font-size-lg);
+        }
+
+        .step-item.completed .step-icon {
+            background: var(--success);
+            color: white;
+        }
+
+        .step-item.processing .step-icon {
+            background: var(--warning);
+            color: white;
+        }
+
+        .step-content h4 {
+            font-size: var(--font-size-base);
+            font-weight: var(--font-weight-semibold);
+            margin-bottom: var(--space-1);
+            color: var(--text-primary);
+        }
+
+        .step-content p {
+            font-size: var(--font-size-sm);
+            color: var(--text-secondary);
+        }
+
+        .security-features {
+            display: flex;
+            justify-content: center;
+            gap: var(--space-6);
+            margin-bottom: var(--space-8);
+            flex-wrap: wrap;
+        }
+
+        .security-item {
+            display: flex;
+            align-items: center;
+            gap: var(--space-2);
+            font-size: var(--font-size-sm);
+            font-weight: var(--font-weight-medium);
+            color: var(--text-secondary);
+        }
+
+        .security-item i {
+            color: var(--primary-500);
+        }
+
+        .warning-message {
+            display: flex;
+            align-items: center;
+            gap: var(--space-3);
+            background: rgba(59, 130, 246, 0.1);
+            color: var(--info);
+            padding: var(--space-4);
+            border-radius: var(--radius-lg);
+            margin-bottom: var(--space-8);
+            border: 1px solid rgba(59, 130, 246, 0.2);
+        }
+
+        .warning-message i {
+            font-size: var(--font-size-lg);
+        }
+
+        .warning-message p {
+            margin: 0;
+            font-size: var(--font-size-sm);
+        }
+
+        .processing-actions {
+            display: flex;
+            justify-content: center;
+        }
+
+        @media (max-width: 768px) {
+            .processing-title {
+                font-size: var(--font-size-3xl);
+            }
+
+            .processing-description {
+                font-size: var(--font-size-base);
+            }
+
+            .security-features {
+                flex-direction: column;
+                align-items: center;
+                gap: var(--space-4);
+            }
+
+            .step-item {
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+    </style>
+</body>
+</html>
